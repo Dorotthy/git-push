@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=PT+Serif&family=Roboto:wght@300;400;900&display=swap');
+
+@media (max-width: 1200px) {
+  /* For a screen < 1200px, this CSS will be read */
+  .container {
+    width: 1000px;
+  }
+}
+@media (max-width: 992px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 768px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 576px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
+
+body {
+  color: rgb(100,100,100);
+  font-family: 'Lora', serif;
+  margin: 0;
+
+}
+
+h1 {
+  font-weight: 900;
+  font-family: 'Roboto';
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Lora';
+  font-size: 24px
+}
+
+h3 {
+  font-family: 'Lora';
+  font-size: 20px
+
+}
+
+p {
+  font-family: 'PT';
+  font-size: 16px;
+  color: rgb(50,50,50);
+}
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.link-medium {
+  text-decoration: none;
+  color: rgb(50,50,50);
+  background-color: rgb(209, 236, 209);
+  font-style: italic;
+  font-size: 24px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(50,50,50);
+  background-color: lightseagreen;
+}
